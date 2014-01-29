@@ -1,0 +1,19 @@
+\name{mympgAll}
+\alias{mympgAll}
+\title{My MPG data}
+\description{Retrieve all fuel economy data from My MPG by vehicle ID}
+\usage{
+mympgAll(id = NULL, pick = FALSE, ...)
+}
+\arguments{
+  \item{id}{A vehicle ID number.}
+  \item{pick}{A logical indicating whether to select the ID number via an interactive menu.}
+  \item{\dots}{Options passed to \code{\link{pickVehicle}}, if \code{pick=TRUE}.}
+}
+%\details{}
+%\value{}
+%\references{}
+\author{Thomas J. Leeper}
+%\note{}
+%\seealso{}
+%\examples{}
