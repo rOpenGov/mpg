@@ -3,3 +3,4 @@ importFrom(XML, xmlParse, xmlToList, xmlToDataFrame, xpathApply, xpathSApply, xm
 
 S3method(print, feVehicle)
 S3method(print, feVehicleEmissions)
+S3method(print, mympgAvg)
