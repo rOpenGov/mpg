@@ -65,9 +65,9 @@ feEmissions(33658)
 Integration with the My MPG site also enables the download of user-submitted fuel economy data, either as averages for a vehicle type or at the individual-level (i.e., a single driver's reported fuel data):
 
 ```
-mympgAvg(33658)
-mympgAll(33658)
+mympgAvg(26425)
+mympgAll(26425)
 ```
 
-With the My MPG API it is also possible to identify sets of individual vehicle data using `mympgVehicles` (based on make and model retrieved from `mympgMakes` and `mympgModels` or the interactive menu provided by `pickMyMPG`).
+With the My MPG API it is also possible to identify sets of individual vehicle data using `mympgVehicles` (based on make and model retrieved from `mympgMakes` and `mympgModels` or through interactive menus similar to `pickVehicle`).
 

@@ -5,6 +5,8 @@ function(id=NULL, pick=FALSE, ...){
         id <- pickVehicle(...)
     response <- feQuery(paste('ympgDriverVehicle',id,sep='/'),
                         baseurl='http://www.fueleconomy.gov/ws/rest/ympg/shared/')
+    if(is.null(response) || xmlValue(xmlChildren(response)$yourMpgDriverVehicles)=='')
+        return(NULL)
     out <- xmlToDataFrame(response)
     out$cityPercent <- as.numeric(out$cityPercent)
     out$highwayPercent <- as.numeric(out$highwayPercent)

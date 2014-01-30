@@ -13,6 +13,8 @@ function(make, model, pick=FALSE, graphics=TRUE, ...){
             stop("Must supply 'model' | set 'pick=TRUE'")
         response <- feQuery(paste('vehicles?make=',make,'&model=',model,sep=''),
                             baseurl='http://www.fueleconomy.gov/ws/rest/ympg/shared/')
+        if(is.null(response))
+            return(NULL)
         out <- xmlToDataFrame(response)
     }
     #class(out) <- c('mympgVehicles',class(out))
