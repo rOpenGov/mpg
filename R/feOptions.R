@@ -5,6 +5,6 @@ function(year, make, model, ...){
                                                   '&model=',model, sep=''))
     out <- xpathApply(response, '//value', xmlValue)
     names(out) <- xpathSApply(response, '//text', xmlValue)
-    class(out) <- c('feOptions',class(out))
+    #class(out) <- c('feOptions',class(out))
     return(out)
 }
