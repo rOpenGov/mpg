@@ -69,5 +69,5 @@ mympgAvg(26425)
 mympgAll(26425)
 ```
 
-With the My MPG API it is also possible to identify sets of individual vehicle data using `mympgVehicles` (based on make and model retrieved from `mympgMakes` and `mympgModels` or through interactive menus similar to `pickVehicle`).
+With the My MPG API it is also possible to identify sets of individual vehicle data using `mympgVehicles` (based on make and model retrieved from `mympgMakes` and `mympgModels` or through interactive menus similar to `pickVehicle` by specifying `pick=TRUE` in either `mympgAvg` or `mympgAll`).
 
