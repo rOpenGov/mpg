@@ -7,3 +7,11 @@ function(id=NULL, pick=FALSE, ...){
     class(out) <- c('feVehicle',class(out))
     return(out)
 }
+
+print.feVehicle <- function(x, ...){
+    d <- setNames(data.frame(t(rbind(x))), 'value')
+    cat('Vehicle data:\n')
+    print(d[!rownames(d)=='emissionsList',,drop=FALSE])
+    cat('\nEmissions List:\n')
+    print.feVehicleEmissions(x$emissionsList)
+}

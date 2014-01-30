@@ -10,7 +10,7 @@ function(id=NULL, pick=FALSE, ...){
 
 print.feVehicleEmissions <-
 function(x, row.names=FALSE, ...){
-    d <- do.call(rbind, lapply(x, as.data.frame))
+    d <- do.call(rbind.data.frame, x)
     print(d, row.names=row.names)
     return(invisible(x))
 }
