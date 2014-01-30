@@ -1,5 +1,6 @@
 \name{feVehicle}
 \alias{feVehicle}
+\alias{print.feVehicle}
 \title{Vehicle fuel economy}
 \description{Retrieve vehicle fuel economy by vehicle ID}
 \usage{
