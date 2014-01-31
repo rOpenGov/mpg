@@ -1,5 +1,6 @@
 exportPattern("^[[:alpha:]]+")
-importFrom(XML, xmlParse, xmlToList, xmlToDataFrame, xpathApply, xpathSApply, xmlValue)
+importFrom(XML, xmlParse, xmlToList, xmlToDataFrame, xpathApply, xpathSApply)
+importFrom(XML, xmlValue, xmlChildren)
 
 S3method(print, feVehicle)
 S3method(print, feVehicleEmissions)
