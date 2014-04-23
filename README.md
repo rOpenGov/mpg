@@ -1,6 +1,6 @@
 # Fuel economy data from FuelEconomy.gov #
 
-[![Build Status](https://travis-ci.org/leeper/mpg.png?branch=master)](https://travis-ci.org/leeper/mpg)
+[![Build Status](https://travis-ci.org/rOpenGov/mpg.svg?branch=master)](https://travis-ci.org/rOpenGov/mpg)
 
 Bored of `mtcars`? Want to play around with tcl/tk menus in R? Looking to buy a new car? The **mpg** package provides access to the [FuelEconomy.gov](http://www.fueleconomy.gov/) [API](http://www.fueleconomy.gov/feg/ws/index.shtml), allowing users to pull in both vehicle-specific and comprehensive U.S. fuel economy data from all available makes, models, and years since 1984 (and provides easy access to Excel-formatted data files going back to 1978). The package also wraps the [My MPG](https://www.fueleconomy.gov/mpg/MPG.do) service, which allows drivers to upload their own fuel usage data.
 
@@ -13,8 +13,8 @@ The package is released under GPL-2 and all data accessible via the API is in th
 To install the latest development version from GitHub:
 
     # install.packages("devtools")
-    library(devtools)
-    install_github("leeper/mpg")
+    library("devtools")
+    install_github("rOpenGov/mpg")
 
 ---
 ## Using the package ##
