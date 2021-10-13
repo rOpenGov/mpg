@@ -9,7 +9,7 @@ Thomas J. Leeper
 
 Maintainer: Thomas J. Leeper <thosjleeper@gmail.com>
 }
-\references{\url{http://www.fueleconomy.gov/feg/ws/index.shtml}}
+\references{\url{https://www.fueleconomy.gov/feg/ws/index.shtml}}
 \keyword{ package }
 %\seealso{}
 %\examples{}

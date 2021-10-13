@@ -1,7 +1,8 @@
 exportPattern("^[[:alpha:]]+")
 importFrom(XML, xmlParse, xmlToList, xmlToDataFrame, xpathApply, xpathSApply)
 importFrom(XML, xmlValue, xmlChildren)
-
+importFrom("stats", "setNames")
+importFrom("utils", "browseURL", "download.file", "menu", "read.table", "unzip")
 S3method(print, feVehicle)
 S3method(print, feVehicleEmissions)
 S3method(print, mympgAvg)
