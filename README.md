@@ -1,8 +1,17 @@
-# Fuel economy data from FuelEconomy.gov #
+# mpg <a href='https://ropengov.github.io/mpg/'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
-[![Build Status](https://travis-ci.org/rOpenGov/mpg.svg?branch=master)](https://travis-ci.org/rOpenGov/mpg)
+<!-- badges: start -->
 
-Bored of `mtcars`? Want to play around with tcl/tk menus in R? Looking to buy a new car? The **mpg** package provides access to the [FuelEconomy.gov](http://www.fueleconomy.gov/) [API](http://www.fueleconomy.gov/feg/ws/index.shtml), allowing users to pull in both vehicle-specific and comprehensive U.S. fuel economy data from all available makes, models, and years since 1984 (and provides easy access to Excel-formatted data files going back to 1978). The package also wraps the [My MPG](https://www.fueleconomy.gov/mpg/MPG.do) service, which allows drivers to upload their own fuel usage data.
+[![rOG-badge](https://ropengov.github.io/rogtemplate/reference/figures/ropengov-badge.svg)](http://ropengov.org/)
+[![R build
+status](https://github.com/rOpenGov/mpg/workflows/R-CMD-check/badge.svg)](https://github.com/rOpenGov/mpg/actions)
+
+<!-- badges: end -->
+
+
+## Fuel economy data from FuelEconomy.gov 
+
+Bored of `mtcars`? Want to play around with tcl/tk menus in R? Looking to buy a new car? The **mpg** package provides access to the [FuelEconomy.gov](https://www.fueleconomy.gov/) [API](https://www.fueleconomy.gov/feg/ws/index.shtml), allowing users to pull in both vehicle-specific and comprehensive U.S. fuel economy data from all available makes, models, and years since 1984 (and provides easy access to Excel-formatted data files going back to 1978). The package also wraps the [My MPG](https://www.fueleconomy.gov/mpg/MPG.do) service, which allows drivers to upload their own fuel usage data.
 
 The package is released under GPL-2 and all data accessible via the API is in the public domain.
 
